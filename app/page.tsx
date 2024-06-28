@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import { useState } from "react"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
 
@@ -26,21 +27,20 @@ export default function Web() {
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Next.js Enterprise Boilerplate
+              🚀 Objevte budoucnost podnikové automatizace s <span className="text-orange-500">Swiftly! </span>{" "}
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
+              Zjednodušte své každodenní úkoly a zvyšte produktivitu s naším intuitivním řešením. Připojte se k nám na
+              začátku naší cesty a buďte mezi prvními, kdo vyzkouší Swiftly!{" "}
             </p>
             <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
+              Early Acces
             </Button>
             <Button
               href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
               intent="secondary"
             >
-              Deploy Now
+              Sledujte nás!
             </Button>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Web() {
           <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
             {LP_GRID_ITEMS.map((singleItem) => (
               <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
+                <div className="text-black-700 mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-400 p-1.5 dark:bg-primary-200 lg:h-12 lg:w-12">
                   {singleItem.icon}
                 </div>
                 <h3 className="mb-2 text-xl font-bold dark:text-white">{singleItem.title}</h3>

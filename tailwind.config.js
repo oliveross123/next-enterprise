@@ -18,16 +18,16 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: "#eff6ff",
-          100: "#dbeafe",
-          200: "#bfdbfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
+          50: "#fff7ed", // Světle oranžová (velmi světlá)
+          100: "#ffedd5", // Světle oranžová (světlá)
+          200: "#fed7aa", // Světle oranžová
+          300: "#fdba74", // Středně světle oranžová
+          400: "#fb923c", // Střední oranžová
+          500: "#f97316", // Oranžová
+          600: "#ea580c", // Středně tmavě oranžová
+          700: "#c2410c", // Tmavě oranžová
+          800: "#9a3412", // Velmi tmavě oranžová
+          900: "#7c2d12", // Velmi tmavě oranžová (nejtmavší)
         },
       },
       fontFamily: {
