@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { useState } from "react"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
+import Head from "next/head"
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
@@ -23,6 +24,14 @@ export const metadata: Metadata = {
 export default function Web() {
   return (
     <>
+      <Head>
+        <script
+          id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ed718c28d97fab0e745e57174/dc01543b5e28a42bc4ebf806f.js");`,
+          }}
+        />
+      </Head>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
