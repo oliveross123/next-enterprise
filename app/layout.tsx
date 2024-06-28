@@ -8,11 +8,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Swiftly.cz | Software pro automatizaci procesů pro střední, malé a mikro podnikatele</title>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:url" content="https://next-enterprise.vercel.app/" />
-        <meta
-          property="og:image"
-          content="https://raw.githubusercontent.com/Blazity/next-enterprise/main/.github/assets/project-logo.png"
-        />
+        <meta property="og:url" content="https://rvltn-swiftly-hp.vercel.app/" />
+        <meta property="og:image" content="https://rvltn-swiftly-hp.vercel.app/" />
         {/* Přidání vlastního skriptu */}
         <script
           id="mcjs"
