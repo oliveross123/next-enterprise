@@ -32,13 +32,10 @@ export default function Web() {
               Zjednodušte své každodenní úkoly a zvyšte produktivitu s naším intuitivním řešením. Připojte se k nám na
               začátku naší cesty a buďte mezi prvními, kdo vyzkouší Swiftly!
             </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Early Access
+            <Button href="https://mailchi.mp/04e71d39ff57/swiftlycz-pedbn-pstup" className="mr-3">
+              Chci předběžný přístup!
             </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
+            <Button href="https://www.instagram.com/swiftly.cz/" intent="secondary">
               Sledujte nás!
             </Button>
           </div>
