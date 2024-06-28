@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Next.js Enterprise Boilerplate</title>
+        <title>Swiftly.cz | Software pro automatizaci processů pro střední, male a mirko podnikatelé</title>
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://next-enterprise.vercel.app/" />
         <meta
