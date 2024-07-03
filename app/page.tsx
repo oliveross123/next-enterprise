@@ -3,7 +3,7 @@ import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
-  title: "Swiftly.cz | Budoucnost podnikové automatizace",
+  title: "RVLTN.cz | Budoucnost podnikové automatizace",
   twitter: {
     card: "summary_large_image",
   },
@@ -26,11 +26,11 @@ export default function Web() {
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              🚀 Objevte budoucnost podnikové automatizace s <span className="text-orange-500">Swiftly! </span>
+              🚀 Objevte budoucnost podnikové automatizace s <span className="text-orange-500">RVLTN! </span>
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Zjednodušte své každodenní úkoly a zvyšte produktivitu s naším intuitivním řešením. Připojte se k nám na
-              začátku naší cesty a buďte mezi prvními, kdo vyzkouší Swiftly!
+              začátku naší cesty a buďte mezi prvními, kdo vyzkouší RVLTN!
             </p>
             <Button href="https://mailchi.mp/04e71d39ff57/swiftlycz-pedbn-pstup" className="mr-3">
               Chci předběžný přístup!
