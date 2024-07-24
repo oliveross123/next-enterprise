@@ -123,11 +123,11 @@ export default function Web() {
               </div>
               <div className="mt-8 text-center lg:mr-16 lg:mt-0 lg:w-1/3 lg:text-right">
                 <h3 className="text-xl font-bold dark:text-white">
-                  Vyřizujte své automatizace vaších kampaní na jednom místě !
+                  Vyřizujte své automatizace vaších procesů na jednom místě !
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  V <span className="text-orange-500">RVLTN </span> myslíme na každého markeťáka a jejich nezbytné
-                  potřeby!
+                  V <span className="text-orange-500">RVLTN </span> myslíme na každého koho unavuje pracovní rutina v
+                  digitalním prostoru a jejich nezbytné potřeby!
                 </p>
               </div>
             </div>
