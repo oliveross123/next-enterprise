@@ -37,7 +37,7 @@ export default function Web() {
         <div className="flex min-h-screen items-center justify-center px-4 py-2 lg:py-4">
           <div className="max-w-screen-xl text-center">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              🚀 Objevte budoucnost podnikové automatizace a digitální automatizace s{" "}
+              🚀 Objevte budoucnost podnikové a digitální automatizace s{" "}
               <span className="text-orange-500">RVLTN! </span>
             </h1>
             <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
@@ -130,6 +130,11 @@ export default function Web() {
                   digitalním prostoru a jejich nezbytné potřeby!
                 </p>
               </div>
+            </div>{" "}
+            <div className="max-w-screen-xl text-center">
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+                Automatizujte svou práci ihned s <span className="text-orange-500">RVLTN! </span>
+              </h1>
             </div>
             <div className="mt-12 flex justify-center space-x-4">
               <Button href="https://mailchi.mp/04e71d39ff57/swiftlycz-pedbn-pstup" className="mb-4">
